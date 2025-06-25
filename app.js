@@ -93,6 +93,6 @@ app.post('/sendmail', async (req, res) => {
 //---------------------------------------------------------------------
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Gmail Email App Credentials: ${GMAIL_EMAIL_ACCOUNT} ${GMAIL_APP_PASSWORD}`);
+  //console.log(`Gmail Email App Credentials: ${GMAIL_EMAIL_ACCOUNT} ${GMAIL_APP_PASSWORD}`);
   console.log(`📨  Email service listening on port ${PORT}`);
 });
