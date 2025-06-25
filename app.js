@@ -6,9 +6,10 @@
 const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+const process = require('process');
 
 const GMAIL_EMAIL_ACCOUNT = process.env('GMAIL_EMAIL_ACCOUNT')
-const GMAIL_APP_PASSWORD = process.env('GMAIL_APP_PASSWOR')
+const GMAIL_APP_PASSWORD = process.env('GMAIL_APP_PASSWORD')
 
 const app = express();
 app.use(cors());
