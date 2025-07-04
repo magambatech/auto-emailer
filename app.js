@@ -47,7 +47,7 @@ app.post('/sendmail', async (req, res) => {
     const subject = req.body.subject || meta.subject;
     const rawText = req.body.text    || meta.text;
     const rawHtml = req.body.html    || meta.html;
-    const from    = meta.from        || 'HealthCoverage <projectsiot9@gmail.com>';
+    const from    = meta.from        || 'PetitionHub <hubpetition@gmail.com>
 
     // -- Validation ---------------------------------------------------
     if (!Array.isArray(users) || users.length === 0) {
